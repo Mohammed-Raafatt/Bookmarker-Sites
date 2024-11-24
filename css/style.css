@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, #b58800a9, #f0c90898, #ffdd00c9);
+}
+
+.home{
+    min-height: 100vh;
+    width: 100%;
+}
+.home h1{
+    font-family: "Pacifico", cursive;
+    font-size: 50px;
+}
+.home h2{
+    font-family: "Righteous", cursive;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #060734, #e3d321);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.home hr{
+    border-top: 2px dotted black; 
+
+}
+
+.lightBoxContainer{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.395);
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.lightBox{
+    width: 500px;
+    height: 250px;
+}
+.lightBoxContainer .lightBox .item1{
+    width:20px;
+    height: 20px;
+    background-color: #f15f5d;
+}
+.lightBoxContainer .lightBox .item2{
+    width:20px;
+    height:20px;
+    background-color: #febe2e;
+}
+.lightBoxContainer .lightBox .item3{
+    width:20px;
+    height: 20px;
+    background-color: #4db748;
+}
